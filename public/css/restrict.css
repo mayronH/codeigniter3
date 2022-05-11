@@ -1,0 +1,28 @@
+.input-group {
+	display: block;
+}
+
+.form-control {
+	margin: 5px 0;
+}
+
+.course-thumbnail,
+.member-thumbnail,
+.user-thumbnail {
+	max-width: 100%;
+	max-height: 100px;
+}
+
+form button {
+	margin-top: 15px;
+}
+
+form button i,
+.fa-plus {
+	font-size: 16px;
+	padding-right: 5px;
+}
+
+.dataTables_wrapper {
+	margin-top: 25px;
+}
