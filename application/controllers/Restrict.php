@@ -13,6 +13,8 @@ class Restrict extends CI_Controller
 		$config["overwrite"] = true;
 
 		$this->load->library("upload", $config);
+
+		$this->load->model("UsersModel");
 	}
 
 	public function index()
@@ -65,8 +67,7 @@ class Restrict extends CI_Controller
 		$password = $this->input->post("password");
 
 		if (!empty($username)) {
-			$this->load->model("users");
-			$result = $this->users->getUserData($username);
+			$result = $this->UsersModel->getUserData($username);
 
 			if ($result) {
 				$user_id = $result->user_id;

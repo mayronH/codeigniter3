@@ -1,3 +1,14 @@
-.input-group {
-	display: block;
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.login {
+	flex: 1;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }

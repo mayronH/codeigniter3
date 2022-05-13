@@ -1,4 +1,4 @@
-<section class="light-bg" style="min-height: calc(100vh - 83px) ;">
+<section class="light-bg login">
     <div class="container">
         <div class="row">
             <div class="col-lg-offset-4 col-lg-4 text-center">
